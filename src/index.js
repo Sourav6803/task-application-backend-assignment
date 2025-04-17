@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const route = require('./route/router.js');
 const cookieParser = require('cookie-parser');
 const app = express();
-const port = 4000;
+const port = 3000;
 
 
 app.use(express.json());
